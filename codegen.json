@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "https://codegen.hasura.app/v1/graphql": {}
+  },
+  "generates": {
+    "src/sdk.tsx": {
+      "plugins": [
+        {
+          "src/index.js": {
+            "depth": 4
+          }
+        }
+      ]
+    }
+  }
+}
