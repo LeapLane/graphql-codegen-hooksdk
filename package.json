@@ -1,6 +1,6 @@
 {
   "name": "graphql-codegen-hooksdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "files": [
     "index.js",
@@ -19,7 +19,6 @@
   },
   "peerDependencies": {
     "@graphql-codegen/cli": "^1.20.0",
-    "@graphql-codegen/core": "^1.17.9",
     "@graphql-codegen/typescript": "^1.20.0",
     "@graphql-codegen/typescript-operations": "^1.17.13",
     "@graphql-codegen/typescript-react-apollo": "^2.2.1"
@@ -30,6 +29,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.20",
-    "@graphql-tools/utils": "^7.2.4"
+    "@graphql-tools/utils": "^7.2.4",
+    "@graphql-codegen/core": "^1.17.9"
   }
 }

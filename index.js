@@ -51,9 +51,7 @@ module.exports = {
       schemaAst: schema,
       plugins: [
         {
-          typescript: {
-            ignoreEnumValuesFromSchema: true,
-          },
+          typescript: {},
         },
         {
           typescriptOperations: {},
@@ -63,12 +61,15 @@ module.exports = {
         },
       ],
       config: {
-        avoidOptionals: false,
+        avoidOptionals: true,
         typesPrefix: "I",
         withHooks: true,
         reactApolloVersion: 3,
-        withResultType: true,
-        documentMode: "documentNode",
+        addDocBlocks: false,
+        omitOperationSuffix: true,
+        pureMagicComment: true,
+        preResolveTypes: true,
+        onlyOperationTypes: true,
       },
     });
 

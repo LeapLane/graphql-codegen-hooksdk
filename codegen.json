@@ -3,10 +3,10 @@
     "https://codegen.hasura.app/v1/graphql": {}
   },
   "generates": {
-    "src/sdk.tsx": {
+    "sdk.tsx": {
       "plugins": [
         {
-          "src/index.js": {
+          "index.js": {
             "depth": 4
           }
         }
